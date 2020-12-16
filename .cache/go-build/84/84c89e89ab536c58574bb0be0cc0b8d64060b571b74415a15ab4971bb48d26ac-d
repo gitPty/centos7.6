@@ -1,0 +1,8 @@
+./client_metrics.go
+./endpoints.go
+./endpointslice.go
+./ingress.go
+./kubernetes.go
+./node.go
+./pod.go
+./service.go

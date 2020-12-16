@@ -1,0 +1,17 @@
+./action.go
+./certificate.go
+./datacenter.go
+./error.go
+./floating_ip.go
+./image.go
+./iso.go
+./load_balancer.go
+./load_balancer_type.go
+./location.go
+./meta.go
+./network.go
+./pricing.go
+./server.go
+./server_type.go
+./ssh_key.go
+./volume.go

@@ -1,0 +1,10 @@
+./auth_options.go
+./auth_result.go
+./doc.go
+./endpoint_search.go
+./errors.go
+./params.go
+./provider_client.go
+./results.go
+./service_client.go
+./util.go

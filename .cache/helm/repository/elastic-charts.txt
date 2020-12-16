@@ -1,0 +1,8 @@
+metricbeat
+apm-server
+eck-operator
+eck-operator-crds
+elasticsearch
+filebeat
+kibana
+logstash

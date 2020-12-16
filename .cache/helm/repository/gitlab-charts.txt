@@ -1,0 +1,10 @@
+knative
+plantuml
+elastic-stack
+auto-deploy-app
+fluentd-elasticsearch
+gitlab
+gitlab-omnibus
+gitlab-runner
+kubernetes-gitlab-demo
+apparmor

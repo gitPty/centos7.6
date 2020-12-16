@@ -1,0 +1,8 @@
+./counter.go
+./factory.go
+./gauge.go
+./histogram.go
+./keys.go
+./metrics.go
+./stopwatch.go
+./timer.go

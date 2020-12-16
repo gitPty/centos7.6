@@ -1,0 +1,1207 @@
+apiVersion: v1
+entries:
+  ack-acr-acceleration-suite:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-12-01T16:38:06.807569908+08:00"
+    description: Speed Up Container Startup on ACK
+    digest: 907eeabac6d15551c95815a48996f14000735a01e5adbc2d876fe50c81b6ab06
+    home: https://www.aliyun.com/product/acr
+    keywords:
+    - acr
+    - image
+    - distribution
+    - category:autoscaling
+    - namespace:aliyun-acr-acceleration
+    - releaseName:aliyun-acr-acceleration-suite
+    - console-visibility:false
+    name: ack-acr-acceleration-suite
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-acr-acceleration-suite-0.1.0.tgz
+    version: 0.1.0
+  ack-advanced-horizontal-pod-autoscaler:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.80840052+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 3ebbfbce0d842025ebffecec2889d3e6134edbf0a8a1fc6ebe3b9efe1dffe3b4
+    keywords:
+    - ack-advanced-horizontal-pod-autoscaler
+    - namespace:kube-system
+    - releaseName:advanced-horizontal-pod-autoscaler
+    name: ack-advanced-horizontal-pod-autoscaler
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-advanced-horizontal-pod-autoscaler-0.1.0.tgz
+    version: 0.1.0
+  ack-ags-wdl:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-01T16:38:06.809049688+08:00"
+    description: A Helm chart for Kubernetes
+    digest: d5d5c1cc2476ad79b7c379261022f2a0b4cbda73f574b184c6e6027400883521
+    name: ack-ags-wdl
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ags-wdl-0.1.0.tgz
+    version: 0.1.0
+  ack-ahas-pilot:
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2020-12-01T16:38:06.809869807+08:00"
+    description: A cloud service that aims to improve the high availability of your
+      applications.
+    digest: 809a474c787966431024e7b0e9ac51e98f85dedf0bbf836a31b36641e0a4a3e0
+    home: https://www.aliyun.com/product/ahas
+    icon: logo.png
+    keywords:
+    - ahas
+    - namespace:ahas
+    - releaseName:ahas
+    - category:ops
+    name: ack-ahas-pilot
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ahas-pilot-1.8.0.tgz
+    version: 1.8.0
+  ack-ahas-sentinel-pilot:
+  - appVersion: 0.2.1
+    created: "2020-12-01T16:38:06.810699527+08:00"
+    description: AHAS Sentinel Pilot - Webhook Admission Controller
+    digest: 3a02be8d5c7061906be66c8842eee09bbe59999a8bfc76d75df15ce9e40e018a
+    home: http://ahas.console.aliyun.com
+    keywords:
+    - ahas
+    - sentinel
+    - namespace:ahas-sentinel-pilot
+    - releaseName:ahas-sentinel-pilot
+    name: ack-ahas-sentinel-pilot
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ahas-sentinel-pilot-0.2.1.tgz
+    version: 0.2.1
+  ack-ahas-springcloud-gateway:
+  - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2020-12-01T16:38:06.811374344+08:00"
+    description: Spring Cloud Gateway with AHAS Sentinel integration Helm chart for
+      Container Service for kubernetes
+    digest: 0270c68ff3c5884a311012407baf9c66f331e8f557e4f5c8e4fcf6fa543e4487
+    home: https://www.aliyun.com/product/ahas
+    icon: logo.png
+    keywords:
+    - Sentinel
+    - AHAS
+    - Spring Cloud Gateway
+    - category:microservice
+    name: ack-ahas-springcloud-gateway
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ahas-springcloud-gateway-0.1.1.tgz
+    version: 0.1.1
+  ack-ai-installer:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-12-01T16:38:06.811843219+08:00"
+    description: a toolkit for scheduling computing resources in Kubernetes cluster
+    digest: 41e8afa0e42e430255f2028538c4e4c26264f4508dd15221b4de09fbe376affc
+    keywords:
+    - namespace:kube-system
+    - ack-ai-installer
+    - releaseName:ack-ai-installer
+    - category:computing
+    kubeVersion: '>=1.18.8-aliyun.1'
+    name: ack-ai-installer
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ai-installer-1.0.0.tgz
+    version: 1.0.0
+  ack-alibaba-cloud-metrics-adapter:
+  - apiVersion: v1
+    appVersion: 0.1.2
+    created: "2020-12-01T16:38:06.812472441+08:00"
+    description: An implementation of the Kubernetes Custom Metrics API and External
+      Metrics API for Alibaba Cloud.This adapter enables you to scale your application
+      pods running on ACK using the Horizontal Pod Autoscaler (HPA) with External
+      Metrics such as ingress QPS, ARMS jvm RT and so on.
+    digest: 07467069f9a6802166c53e45337124c7a3899e3f4021786ee87a80039ea81a51
+    home: alibaba-cloud-metrics-adapter
+    icon: logo.png
+    keywords:
+    - ack-alibaba-cloud-metrics-adapter
+    - namespace:kube-system
+    - releaseName:ack-alibaba-cloud-metrics-adapter
+    - category:autoscaling
+    maintainers:
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    name: ack-alibaba-cloud-metrics-adapter
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-alibaba-cloud-metrics-adapter-1.2.1.tgz
+    version: 1.2.1
+  ack-arena:
+  - apiVersion: v2
+    appVersion: 0.5.0
+    created: "2020-12-01T16:38:06.812839977+08:00"
+    description: Running Deep Learning Containers on ACK
+    digest: 9e87fbebdf4e177afad421a93c61016ceede1148186bdab086847fe24828a9d9
+    home: https://github.com/kubeflow/arena
+    keywords:
+    - category:data
+    - arena
+    - namespace:kube-system
+    - releaseName:ack-arena
+    name: ack-arena
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-arena-0.5.0.tgz
+    version: 0.5.0
+  ack-arms-pilot:
+  - appVersion: 1.0.2
+    created: "2020-12-01T16:38:06.813422749+08:00"
+    description: ARMS Pilot - Webhook Admission Controller
+    digest: f8a199aaf04822fe464c302ed289181a413c922ea6cda89b278b8b50734b7bca
+    home: https://www.aliyun.com/product/arms
+    icon: logo.png
+    keywords:
+    - arms
+    - namespace:arms-pilot
+    - releaseName:arms-pilot
+    - category:ops
+    name: ack-arms-pilot
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-arms-pilot-0.1.2.tgz
+    version: 0.1.2
+  ack-arms-prometheus:
+  - appVersion: 1.0.5
+    created: "2020-12-01T16:38:06.814146192+08:00"
+    description: ARMS Prometheus Operator
+    digest: dec9ad5ae8ec82f166914bf93c0cd5ff2f452535c1d78e1e91fd328394875439
+    home: https://www.aliyun.com/product/arms
+    icon: logo.png
+    keywords:
+    - arms
+    - prometheus
+    - namespace:arms-prom
+    - releaseName:arms-prom
+    - category:ops
+    name: ack-arms-prometheus
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-arms-prometheus-0.1.5.tgz
+    version: 0.1.5
+  ack-autoscaling-placeholder:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.814456464+08:00"
+    description: Installs the a deployment that overprovisions the cluster
+    digest: ecda8f0617db1db22434009c7f8a4a1c78240c027aa0aa35c5ddeaed7f5b0166
+    engine: gotpl
+    keywords:
+    - autoscaling
+    - ack-autoscaling-placeholder
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    name: ack-autoscaling-placeholder
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-autoscaling-placeholder-1.0.0.tgz
+    version: 1.0.0
+  ack-cgpu:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-12-01T16:38:06.81498443+08:00"
+    description: A GPU sharing and isolation solution on Kubernetes.
+    digest: e92af9cd4632ed3a37807485c2488f9db671ce59dc2d915849ed4441972b9817
+    home: https://github.com/AliyunContainerService/gpushare-scheduler-extender
+    keywords:
+    - cgpu
+    - namespace:kube-system
+    - releaseName:cgpu
+    - category:data
+    - regions:cn-hangzhou,cn-beijing,cn-shanghai,cn-zhangjiakou,cn-shenzhen,cn-chengdu,us-east-1,cn-heyuan,ap-southeast-1,ap-southeast-5,cn-hongkong
+    - conflictChart:ack-npucore
+    name: ack-cgpu
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-cgpu-1.0.0.tgz
+    version: 1.0.0
+  ack-consul:
+  - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2020-12-01T16:38:06.816322025+08:00"
+    description: Install and configure Consul on Kubernetes.
+    digest: 205cc34165cbbd89bae61154e79c39aa7d47f13922ee2f0241b374291ab0bfe8
+    home: https://www.consul.io
+    name: ack-consul
+    sources:
+    - https://github.com/hashicorp/consul
+    - https://github.com/hashicorp/consul-helm
+    - https://github.com/hashicorp/consul-k8s
+    tillerVersion: '>=2.10.0-0'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-consul-0.5.0.tgz
+    version: 0.5.0
+  ack-edge-arms-prometheus:
+  - appVersion: 1.0.4
+    created: "2020-12-01T16:38:06.81770508+08:00"
+    description: ARMS Prometheus Operator
+    digest: c8fe1b4a4c55de442db951017524b1626c4b104e93381fe83f6469984de6c00d
+    home: https://www.aliyun.com/product/arms
+    icon: logo.png
+    keywords:
+    - arms
+    - prometheus
+    - namespace:arms-prom
+    - releaseName:arms-prom
+    - category:edge
+    name: ack-edge-arms-prometheus
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-edge-arms-prometheus-0.1.4.tgz
+    version: 0.1.4
+  ack-edge-node-problem-detector:
+  - appVersion: 0.8.0
+    created: "2020-12-01T16:38:06.818442384+08:00"
+    description: this chart  aims to make various node problems visible to the upstream
+      layers in cluster management stack,and  told people where is the problem on
+      time.
+    digest: 6d2d5b6760a6adde67b9fe9df88a084c3d446420fe766b216dadd6c206c714f8
+    home: https://github.com/AliyunContainerService/node-problem-detector
+    keywords:
+    - ack-node-problem-detector
+    - eventer
+    - namespace:kube-system
+    - releaseName:ack-edge-node-problem-detector
+    - category:edge
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    - email: yuqi.hyq@alibaba-inc.com
+      name: xiyuan
+    name: ack-edge-node-problem-detector
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-edge-node-problem-detector-1.2.0.tgz
+    version: 1.2.0
+  ack-etcd-backup-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.818961679+08:00"
+    description: This is an etcd backup operator for Alibaba Cloud Kubernetes clusters.
+    digest: 877b24c317d7a42e9fc394ee075fdcbc9022754bd5e323f2232f638a86d21230
+    maintainers:
+    - email: haoshuwei24@gmail.com
+      name: haoshuwei
+    name: ack-etcd-backup-operator
+    sources:
+    - https://yq.aliyun.com/articles/718737
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-etcd-backup-operator-0.1.0.tgz
+    version: 0.1.0
+  ack-federation-v2:
+  - apiVersion: v1
+    appVersion: 0.0.10
+    created: "2020-12-01T16:38:06.82191403+08:00"
+    description: Kubernetes Federation V2 helm chart
+    digest: 7fb6b75425de01269242c5cf80ed07f51dfecff666ac91a5015d55b5602bb1b4
+    engine: gotpl
+    keywords:
+    - federation-v2
+    - namespace:federation-system
+    - crd
+    - releaseName:federation-v2
+    - category:cluster-management
+    - console-visibility:false
+    name: ack-federation-v2
+    sources:
+    - https://github.com/kubernetes-sigs/federation-v2
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-federation-v2-0.2.3.tgz
+    version: 0.2.3
+  ack-ingress-nginx:
+  - apiVersion: v1
+    appVersion: 0.30.0
+    created: "2020-12-01T16:38:06.82392655+08:00"
+    description: An Nginx Ingress Controller that uses ConfigMap and Ingress to store
+      the nginx configuration.
+    digest: 9e9adc7c0b756b5512552040f615bcab99c315b6359780acb93e7ce9b660cd7d
+    engine: gotpl
+    home: https://github.com/AliyunContainerService/ingress-nginx/tree/ack
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    name: ack-ingress-nginx
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-ingress-nginx-1.34.2.tgz
+    version: 1.34.2
+  ack-jenkins:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.82470787+08:00"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 03a3560e3c03f7de63da4879e59678e5906c3e80cd9f6c4f81e93967b9ea8e0b
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    keywords:
+    - category:ci-cd
+    name: ack-jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://help.aliyun.com/document_detail/106712.html
+    - https://www.alibabacloud.com/help/doc-detail/106712.htm
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-jenkins-2.205.tgz
+    version: "2.205"
+  ack-keda:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2020-12-01T16:38:06.827155056+08:00"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 4db20e54f3d01e9a3273f0553667ee430f52975720fcc5793a51f4c16550649f
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/master/images/keda-logo-500x500-white.png
+    keywords:
+    - ack-keda
+    - namespace:kube-system
+    - releaseName:ack-keda
+    - category:autoscaling
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: ack-keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-keda-2.0.0.tgz
+    version: 2.0.0
+  ack-kiali:
+  - apiVersion: v2
+    appVersion: v1.25
+    created: "2020-12-01T16:38:06.828123146+08:00"
+    description: Kiali for ASM is a service mesh management for Alibabacloud ServiceMesh.
+    digest: 19e95cec11374ae0c7c094b3af2a08ec885ee4e92a371f1e8acd3635519462de
+    icon: logo.png
+    keywords:
+    - ack-kiali
+    - releaseName:ack-kiali
+    - category:ops
+    - namespace:istio-system
+    maintainers:
+    - email: lu.hl@alibaba-inc.com
+      name: lu.hl
+    name: ack-kiali
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kiali-0.0.1.tgz
+    version: 0.0.1
+  ack-knative-eventing:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2020-12-01T16:38:06.828843172+08:00"
+    description: Helm chart for Knative eventing
+    digest: 356440c2c4a765c70aec358827092b4a6b646a4a3d13ee901ee36265a385fc97
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - eventing
+    - namespace:knative-eventing
+    - releaseName:knative-eventing
+    - category:application-management
+    name: ack-knative-eventing
+    sources:
+    - https://github.com/knative/eventing
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-eventing-0.14.0.tgz
+    version: 0.14.0
+  ack-knative-init:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2020-12-01T16:38:06.829537488+08:00"
+    description: Helm chart for Knative init
+    digest: 2d21323e41e6b0c0268d6fba985c33db7d6aadd2cf155a3d4e3a7610709faf48
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - init
+    - namespace:knative-system
+    - releaseName:knative-init
+    - category:application-management
+    name: ack-knative-init
+    sources:
+    - https://github.com/knative/serving
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-init-0.14.0.tgz
+    version: 0.14.0
+  ack-knative-kafka-sources:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2020-12-01T16:38:06.830087887+08:00"
+    description: Helm chart for Knative eventing kafka sources
+    digest: 2359d5f44ab71a704a563d573bf29eea3abdcff8d3c1c92d130bf4411c66906c
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - knative-kafka-sources
+    - namespace:knative-sources
+    - releaseName:knative-kafka-sources
+    name: ack-knative-kafka-sources
+    sources:
+    - https://github.com/knative/eventing
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-kafka-sources-0.14.0.tgz
+    version: 0.14.0
+  ack-knative-mnsoss-sources:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-12-01T16:38:06.830534739+08:00"
+    description: Helm chart for Knative eventing-mnsoss-sources
+    digest: 1f98fcd5a904a605ae437ea340e95c4d1a62f82fafa860b5f109043101a6893b
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - eventing-mnsoss-sources
+    - namespace:knative-sources
+    - releaseName:knative-mnsoss-sources
+    - category:application-management
+    name: ack-knative-mnsoss-sources
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-mnsoss-sources-1.0.0.tgz
+    version: 1.0.0
+  ack-knative-rocketmq-sources:
+  - apiVersion: v1
+    appVersion: 0.11.0
+    created: "2020-12-01T16:38:06.830946943+08:00"
+    description: Helm chart for Knative eventing rocketmq sources
+    digest: dec0e09d07fc7671ba3b0e926310dbbf257734253728c1c5b5e76933d2e05ae2
+    keywords:
+    - knative
+    - knative-rocketmq-sources
+    - namespace:knative-sources
+    - releaseName:knative-rocketmq-sources
+    name: ack-knative-rocketmq-sources
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-rocketmq-sources-0.11.0.tgz
+    version: 0.11.0
+  ack-knative-serving:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2020-12-01T16:38:06.83148743+08:00"
+    description: Helm chart for Knative serving
+    digest: f54c56077a14f01a6ac718023e615600c315deffaeaff5003737880e8c38ff49
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - serving
+    - namespace:knative-serving
+    - releaseName:knative-serving
+    - category:application-management
+    name: ack-knative-serving
+    sources:
+    - https://github.com/knative/serving
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-serving-0.14.0.tgz
+    version: 0.14.0
+  ack-knative-sources:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2020-12-01T16:38:06.832085918+08:00"
+    description: Helm chart for Knative eventing-sources
+    digest: 0c176373868a12b32bce9e71f27a898252cd20ff2f99f63769ed725f3a8927e1
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - knative
+    - eventing-sources
+    - namespace:knative-sources
+    - releaseName:knative-sources
+    - category:application-management
+    name: ack-knative-sources
+    sources:
+    - https://github.com/knative/eventing
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-knative-sources-0.14.0.tgz
+    version: 0.14.0
+  ack-kruise:
+  - apiVersion: v1
+    appVersion: 0.6.1
+    created: "2020-12-01T16:38:06.834339505+08:00"
+    description: Helm chart for all kruise-manager components
+    digest: 77d5e043227ddc62d2e72c039d98e4b88e992cf55c8a103768ae473cf81a2af4
+    engine: gotpl
+    home: https://openkruise.io
+    icon: logo.png
+    keywords:
+    - kubernetes
+    - kruise
+    - workload
+    - cloneset
+    - statefulset
+    - sidecar
+    - job
+    - deployment
+    - category:application-management
+    name: ack-kruise
+    sources:
+    - https://github.com/openkruise/kruise
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kruise-0.6.1.tgz
+    version: 0.6.1
+  ack-kubefed:
+  - apiVersion: v1
+    created: "2020-12-01T16:38:06.83593423+08:00"
+    description: KubeFed helm chart
+    digest: 42deaa4cc15aa25dd03baddcde8efb2f8ade848dd920bbaf21aba21196a0d855
+    engine: gotpl
+    keywords:
+    - kubefed
+    - crd
+    - namespace:kube-federation-system
+    - releaseName:kubefed
+    - category:cluster-management
+    name: ack-kubefed
+    sources:
+    - https://github.com/kubernetes-sigs/kubefed
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kubefed-0.0.2.tgz
+    version: 0.0.2
+  ack-kubefed-init:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-12-01T16:38:06.83627937+08:00"
+    description: Helm chart to initialize kubefed Envs
+    digest: c60d4bd967d7b3457b3d26d91bdf0ae3a26dc1cfc61b8a419ededcdc8b64d8e9
+    engine: gotpl
+    keywords:
+    - kubefed
+    - crd
+    - namespace:kube-federation-system
+    - releaseName:kubefed-operator
+    name: ack-kubefed-init
+    sources:
+    - https://github.com/kubernetes-sigs/kubefed
+    tillerVersion: '>=2.7.2-0'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kubefed-init-1.0.0.tgz
+    version: 1.0.0
+  ack-kubernetes-cronhpa-controller:
+  - appVersion: v1beta1
+    created: "2020-12-01T16:38:06.836673837+08:00"
+    description: kubernetes-cronhpa-controller is a kubernetes cron horizontal pod
+      autoscaler controller using crontab like scheme. You can use CronHorizontalPodAutoscaler
+      with any kind object defined in kubernetes which support scale subresource(such
+      as Deployment and StatefulSet).
+    digest: 47e7ec2fe12d6a2dbdb9addc2d50da28dab42a6d8f71017b0ced27cea3d26d0b
+    home: https://github.com/AliyunContainerService/kubernetes-cronhpa-controller
+    keywords:
+    - cronhpa
+    - namespace:kube-system
+    - releaseName:ack-kubernetes-cronhpa-controller
+    - category:autoscaling
+    kubeVersion: '>=1.7.0-0'
+    maintainers:
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    name: ack-kubernetes-cronhpa-controller
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kubernetes-cronhpa-controller-1.3.3.tgz
+    version: 1.3.3
+  ack-kubernetes-elastic-workload:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.838100822+08:00"
+    description: ack-elastic is a kind of workload born for autoscaling and elastic
+      scheduling.
+    digest: a2b78ac9f5a78ac3163eb295163de775648e196afdf08279f0cbc8e8fa3dbbb1
+    keywords:
+    - ack-kubernetes-elastic-workload
+    - releaseName:ack-kubernetes-elastic-workload
+    - namespace:kube-system
+    - autoscaling
+    maintainers:
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    name: ack-kubernetes-elastic-workload
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kubernetes-elastic-workload-0.1.0.tgz
+    version: 0.1.0
+  ack-kubernetes-webhook-injector:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-12-01T16:38:06.838476504+08:00"
+    description: 自动将 Pod 的 IP 加入和移出指定的安全组和RDS白名单
+    digest: 35d1e55cc36884cb52adfd4843306f9c7c9ccc8143d3d36688434a9583a5eed4
+    keywords:
+    - namespace:kube-system
+    - ack-kubernetes-webhook-injector
+    - releaseName:ack-kubernetes-webhook-injector
+    - category:ops
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    - email: ruijian.zrj@alibaba-inc.com
+      name: 小锅
+    name: ack-kubernetes-webhook-injector
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-kubernetes-webhook-injector-0.1.0.tgz
+    version: 0.1.0
+  ack-mse-pilot:
+  - appVersion: 1.0.1
+    created: "2020-12-01T16:38:06.839322905+08:00"
+    description: MSE Pilot - Webhook Admission Controller
+    digest: e8b0297be73e1a464ab4fa5ee21deb6b95479d60be43a7783dc67154633b6bd0
+    home: https://cn.aliyun.com/product/aliware/mse
+    icon: logo.png
+    keywords:
+    - mse
+    - namespace:mse-pilot
+    - releaseName:mse-pilot
+    - category:microservice
+    name: ack-mse-pilot
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-mse-pilot-0.1.0.tgz
+    version: 0.1.0
+  ack-node-local-dns:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-12-01T16:38:06.849405881+08:00"
+    description: Install node-local-dns in Alibaba Cloud Kubernetes cluster.
+    digest: bb1e458f105915509487e1e56f692aee9cf72ec8633597fcf25f4a74bac6d105
+    engine: gotpl
+    keywords:
+    - node-local-dns
+    - namespace:kube-system
+    - releaseName:ack-node-local-dns
+    maintainers:
+    - email: zl205639@alibaba-inc.com
+      name: Jimmy Zhang
+    name: ack-node-local-dns
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns/nodelocaldns
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-node-local-dns-1.3.0.tgz
+    version: 1.3.0
+  ack-node-problem-detector:
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2020-12-01T16:38:06.850118278+08:00"
+    description: this chart  aims to make various node problems visible to the upstream
+      layers in cluster management stack,and  told people where is the problem on
+      time.
+    digest: aabeecf4a6e3b89c188984860cc50be18fb46b2aebf2038c7f86d896216c90dc
+    home: https://github.com/AliyunContainerService/node-problem-detector
+    keywords:
+    - ack-node-problem-detector
+    - eventer
+    - namespace:kube-system
+    - releaseName:ack-node-problem-detector
+    - category:ops
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    name: ack-node-problem-detector
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-node-problem-detector-1.2.1.tgz
+    version: 1.2.1
+  ack-node-repairer:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2020-12-01T16:38:06.850510851+08:00"
+    description: ACK 节点故障自愈框架
+    digest: 2b2c9ddb30b6e21270fa74dd4bf85f5e3c7dcccd42213873a85e4d9b3683569f
+    keywords:
+    - ack-node-repairer
+    - namespace:kube-system
+    - releaseName:ack-node-repairer
+    - category:ops
+    name: ack-node-repairer
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-node-repairer-1.0.1.tgz
+    version: 1.0.1
+  ack-npucore:
+  - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2020-12-01T16:38:06.851066067+08:00"
+    description: A Helm chart for supporting core-level NPU scheduling capability
+      in k8s
+    digest: 5d35a7b3cf276655882b5ef1ae4058f697eeeb52b865f755540f503742cfcdcc
+    keywords:
+    - npucore
+    - namespace:kube-system
+    - releaseName:npucore
+    - category:data
+    - conflictChart:ack-cgpu
+    name: ack-npucore
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-npucore-v0.3.1.tgz
+    version: v0.3.1
+  ack-openmpi:
+  - apiVersion: v1
+    appVersion: 3.1.0
+    created: "2020-12-01T16:38:06.851376808+08:00"
+    description: A High Performance Message Passing Library.
+    digest: a5423581b2c0c412c52bb49621f06fd847fff8709ae9b33b68dd919179f40f03
+    keywords:
+    - category:data
+    maintainers:
+    - email: cheyang@163.com
+      name: Yang Che
+    name: ack-openmpi
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-openmpi-0.1.0.tgz
+    version: 0.1.0
+  ack-presto:
+  - apiVersion: v1
+    appVersion: "0.236"
+    created: "2020-12-01T16:38:06.858207027+08:00"
+    description: Distributed SQL query engine for running interactive analytic queries
+    digest: 0c3d3df1bfaa18ac3f066f9bbd4dbe971a2daef18038ad3b63cdc08cd2b05100
+    home: https://prestodb.io
+    icon: logo.png
+    keywords:
+    - presto
+    - namespace:ack-presto
+    - category:data
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: ringtail
+    name: ack-presto
+    sources:
+    - https://github.com/facebook/presto
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-presto-0.1.0.tgz
+    version: 0.1.0
+  ack-prometheus-operator:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v1
+    appVersion: 0.43.0
+    created: "2020-12-01T16:38:06.875856458+08:00"
+    description: Provides easy monitoring definitions for Kubernetes services, and
+      deployment and management of Prometheus instances.
+    digest: bbfd7a1214ea2baf49977d68a461eb3a826716efb405fcdba396d28b7d09ff58
+    engine: gotpl
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - ack-prometheus-operator
+    - namespace:monitoring
+    - releaseName:ack-prometheus-operator
+    - category:ops
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: ringtail
+    - email: wb-gq555900@alibaba-inc.com
+      name: carson
+    name: ack-prometheus-operator
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    - https://coreos.com/operators/prometheus
+    - https://github.com/AliyunContainerService/prometheus-operator-charts
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-prometheus-operator-11.0.0.tgz
+    version: 11.0.0
+  ack-schedulerx:
+  - apiVersion: v1
+    appVersion: 1.0.8
+    created: "2020-12-01T16:38:06.877672614+08:00"
+    description: Schedulerx is a distributed job schedule and computing platform.
+    digest: 0ab2ab9e6607a5e30f4ea3abf38e6881fe9a31dc38471629b7cef18653c6838a
+    home: https://help.aliyun.com/document_detail/125501.html?spm=a2c4g.11174283.6.649.36314632YNoM6O
+    keywords:
+    - schedulerx
+    - job
+    - computing
+    - namespace:schedulerx-system
+    - releaseName:ack-schedulerx
+    name: ack-schedulerx
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-schedulerx-1.0.0.tgz
+    version: 1.0.0
+  ack-secret-manager:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-12-01T16:38:06.878137119+08:00"
+    description: Provides external secret definitions for importing secret managed
+      in Alibaba Cloud KMS secret-manager
+    digest: 4cda577cc65b5e0b739283c7176d3a42b7582504cf76c34eef9634fba92f2f5b
+    home: https://github.com/AliyunContainerService/ack-secret-manager
+    keywords:
+    - secret-manager
+    - secrets
+    - namespace:kube-system
+    - releaseName:ack-secret-manager
+    name: ack-secret-manager
+    sources:
+    - https://github.com/AliyunContainerService/ack-secret-manager
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-secret-manager-0.1.0.tgz
+    version: 0.1.0
+  ack-sls-log-controller:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.878846058+08:00"
+    description: Alibaba cloud log service for kubernetes. Include controller and
+      logtail daemonset
+    digest: 4a3f0bc20163edbf8c1a49bfba20ab2c7142388dfa613ddc5f60778fa7a95240
+    home: https://www.aliyun.com/product/sls
+    icon: logo.png
+    keywords:
+    - category:ops
+    - console-visibility:false
+    name: ack-sls-log-controller
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-sls-log-controller-1.0.0.tgz
+    version: 1.0.0
+  ack-sls-logtail:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-12-01T16:38:06.879386666+08:00"
+    description: Alibaba cloud log service for kubernetes. Include controller and
+      logtail daemonset
+    digest: 3c02ea2b3876c23b4f04c2d75a3f24c9e109b83c9a5dac2522ea2bd66beb6a29
+    home: https://www.aliyun.com/product/sls
+    icon: logo.png
+    keywords:
+    - category:ops
+    name: ack-sls-logtail
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-sls-logtail-1.0.0.tgz
+    version: 1.0.0
+  ack-spark-history-server:
+  - appVersion: 2.4.5
+    created: "2020-12-01T16:38:06.879837104+08:00"
+    description: A Helm chart for Spark History Server
+    digest: d77d2c57b5889d519b83cecd3fdd259f5f45170e4a64c3ac2e637280fb0d119b
+    home: https://spark.apache.org
+    keywords:
+    - releaseName:ack-spark-history-server
+    - spark-history-server
+    - category:data
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    name: ack-spark-history-server
+    sources:
+    - https://github.com/AliyunContainerService/spark
+    - https://github.com/ringtail/spark-history-server-docker
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-spark-history-server-0.5.0.tgz
+    version: 0.5.0
+  ack-spark-operator:
+  - appVersion: 2.4.5
+    created: "2020-12-01T16:38:06.881647791+08:00"
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: 64d7d7b14df77f53035e7db7c052c1233ba081a86529efceabd6ebbca8c23924
+    home: https://github.com/AliyunContainerService/spark-on-k8s-operator
+    keywords:
+    - spark
+    - namespace:spark-operator
+    - releaseName:ack-spark-operator
+    - category:data
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: 莫源
+    name: ack-spark-operator
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-spark-operator-0.1.14.tgz
+    version: 0.1.14
+  ack-tekton-dashboard:
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2020-12-01T16:38:06.882094475+08:00"
+    description: Helm chart for tekton dashboard
+    digest: 7161e5a31031b02c1b17b232df25e2d4a80dc577ebab3fba0e47831d9d903a1f
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - tekton
+    - dashboard
+    - namespace:tekton-pipelines
+    - releaseName:tekton-dashboard
+    - category:ci-cd
+    name: ack-tekton-dashboard
+    sources:
+    - https://github.com/tektoncd/dashboard
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-tekton-dashboard-0.2.0.tgz
+    version: 0.2.0
+  ack-tekton-pipelines:
+  - apiVersion: v1
+    appVersion: 0.9.2
+    created: "2020-12-01T16:38:06.882703926+08:00"
+    description: Helm chart for tekton pipelines
+    digest: b27501c94b4c5543a61bb741d17340ca0a43e03ee94152336884f07997cd45eb
+    engine: gotpl
+    icon: https://avatars2.githubusercontent.com/u/35583233?s=200&v=4
+    keywords:
+    - tekton
+    - pipelines
+    - namespace:tekton-pipelines
+    - releaseName:tekton-pipelines
+    - category:ci-cd
+    name: ack-tekton-pipelines
+    sources:
+    - https://github.com/tektoncd/pipeline
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-tekton-pipelines-0.9.2.tgz
+    version: 0.9.2
+  ack-tensorflow-dev:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2020-12-01T16:38:06.883031726+08:00"
+    description: Setup TensorFlow development environment for Kubernetes on Alibaba
+      Cloud Container Service
+    digest: 54dab4a30f13270dd36d7d484f712044bd8d76c434a3f0d19576f4a3a4edf4d5
+    keywords:
+    - category:data
+    name: ack-tensorflow-dev
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-tensorflow-dev-0.3.0.tgz
+    version: 0.3.0
+  ack-tensorflow-serving:
+  - apiVersion: v1
+    appVersion: 1.4.0
+    created: "2020-12-01T16:38:06.883322807+08:00"
+    description: TensorFlow Serving Helm chart for Kubernetes on Alibaba Cloud Container
+      Service
+    digest: 7acfd6c646cc737d54b81bc3324cc5db28f89d59f7cbfec01ca38299e8a74485
+    keywords:
+    - category:data
+    name: ack-tensorflow-serving
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-tensorflow-serving-0.1.0.tgz
+    version: 0.1.0
+  ack-tensorflow-training:
+  - apiVersion: v1
+    appVersion: 1.4.0
+    created: "2020-12-01T16:38:06.883741333+08:00"
+    description: TensorFlow Training Helm chart for Kubernetes on Alibaba Cloud Container
+      Service
+    digest: 1b5cdb8491052b567f7ce93930279853044bc2d04f928c725a7da42f5a25c89e
+    keywords:
+    - category:data
+    name: ack-tensorflow-training
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-tensorflow-training-0.1.0.tgz
+    version: 0.1.0
+  ack-virtual-kubelet-autoscaler:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2020-12-01T16:38:06.884004516+08:00"
+    description: Install virtual kubelet autoscaler in Alibaba Cloud Kubernetes cluster.
+    digest: f0a734c652435982222313908b369a313230a78493a9b3b6f5ca5dea83835101
+    engine: gotpl
+    keywords:
+    - virtual-kubelet-autoscaler
+    - namespace:kube-system
+    - releaseName:ack-virtual-kubelet-autoscaler
+    - category:serverless
+    maintainers:
+    - email: zhongwei.lzw@alibaba-inc.com
+      name: zhongwei.lzw
+    name: ack-virtual-kubelet-autoscaler
+    sources:
+    - https://github.com/virtual-kubelet/virtual-kubelet/tree/master/providers/alibabacloud
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-virtual-kubelet-autoscaler-0.0.1.tgz
+    version: 0.0.1
+  ack-virtual-node:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2020-12-01T16:38:06.884862148+08:00"
+    description: Install virtual kubelet in Alibaba Cloud Kubernetes cluster.
+    digest: a3a4123890b42a7ceeb7281339d7766d4ed5a81e6e4c5cb951a86f52e3b939e4
+    engine: gotpl
+    keywords:
+    - virtual-node
+    - namespace:kube-system
+    - releaseName:ack-virtual-node
+    - category:serverless
+    maintainers:
+    - email: zl205639@alibaba-inc.com
+      name: Jimmy Zhang
+    name: ack-virtual-node
+    sources:
+    - https://github.com/virtual-kubelet/virtual-kubelet/tree/master/providers/alibabacloud
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-virtual-node-0.0.1.tgz
+    version: 0.0.1
+  ack-wordpress-sample:
+  - annotations:
+      category: CMS
+    apiVersion: v1
+    appVersion: 5.4.2
+    created: "2020-12-01T16:38:06.887453052+08:00"
+    description: Web publishing platform for building blogs and websites.
+    digest: bd492affff689d2deb4d45a36c7aad16da7f66ddb465cd3ee1b7d7f27075e37b
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: ack-wordpress-sample
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/ack-wordpress-sample-9.4.0.tgz
+    version: 9.4.0
+  alluxio:
+  - apiVersion: v1
+    appVersion: 2.3.0
+    created: "2020-12-01T16:38:06.888197209+08:00"
+    description: Open source data orchestration for analytics and machine learning
+      in any cloud.
+    digest: fde1368789ab69e399f70265187800b09de597587a2fe1d5dd97212018275410
+    home: https://www.alluxio.io/
+    icon: http://application-catalog.oss-cn-hangzhou.aliyuncs.com/doc-pictures/alluxio/alluxio_logo.png
+    keywords:
+    - alluxio
+    - namespace:alluxio
+    - releaseName:alluxio
+    - category:data
+    maintainers:
+    - email: adit@alluxio.com
+      name: Adit Madan
+    - email: jiacheng@alluxio.com
+      name: Jiacheng Liu
+    - email: cheyang@163.com
+      name: Yang Che
+    name: alluxio
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/alluxio-0.6.5.tgz
+    version: 0.6.5
+  appcenter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-01T16:38:06.889029835+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 0f460f826f443255699f504a3327be5e25f53e809a741078f5703d6ef6a4d844
+    keywords:
+    - console-visibility:false
+    name: appcenter
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/appcenter-0.1.1.tgz
+    version: 0.1.1
+  demo-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-01T16:38:06.889347528+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 93781ff20bad1f0220c17b8f876631970eb50ec4939f1ca31c831e3371a711e7
+    keywords:
+    - console-visibility:false
+    name: demo-helm
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/demo-helm-0.1.0.tgz
+    version: 0.1.0
+  jindofs:
+  - apiVersion: v1
+    appVersion: 2.7.4
+    created: "2020-12-01T16:38:06.889965804+08:00"
+    description: FileSystem on the cloud based on Aliyun Object Storage aimed for
+      data acceleration.
+    digest: 9af0001729b105b476ee2c8062923d01ebe3ccb783983c4d99d54e3b555e77a6
+    home: https://help.aliyun.com/document_detail/164207.html
+    keywords:
+    - jindofs
+    - namespace:jindofs
+    - releaseName:jindofs
+    - category:data
+    maintainers:
+    - email: kunhui.skh@alibaba-inc.com
+      name: kunhui.skh
+    - email: cheyang@163.com
+      name: Yang Che
+    name: jindofs
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/jindofs-2.7.4.tgz
+    version: 2.7.4
+  kubernetes-dashboard:
+  - apiVersion: v1
+    appVersion: 2.0.4
+    created: "2020-12-01T16:38:06.891070006+08:00"
+    description: General-purpose web UI for Kubernetes clusters
+    digest: b4dc99945aec432c5a3ec6d6db59186203401f0cc545e8b36d60bb48656f7c37
+    keywords:
+    - kubernetes
+    - dashboard
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: cdesaintmartin@wiremind.fr
+      name: carson
+    name: kubernetes-dashboard
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/kubernetes-dashboard-2.8.1.tgz
+    version: 2.8.1
+  mariadb-broker:
+  - apiVersion: v1
+    created: "2020-12-01T16:38:06.891471604+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 5fc414a21c442ea6c2f768eb2d510913c7d25a2e1cdecd0a6df00effa5504dc3
+    keywords:
+    - mariadb-broker
+    - service-broker
+    name: mariadb-broker
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/mariadb-broker-0.1.0.tgz
+    version: 0.1.0
+  mysql-broker:
+  - apiVersion: v1
+    created: "2020-12-01T16:38:06.891933021+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 021e3f5324fd372afe50acc7f081f5e4d8bac0205abf80e95a0d50708cb71446
+    keywords:
+    - mysql-broker
+    - service-broker
+    name: mysql-broker
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/mysql-broker-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq-broker:
+  - apiVersion: v1
+    created: "2020-12-01T16:38:06.892331798+08:00"
+    description: A Helm chart for Kubernetes
+    digest: baa2bd9481d6ab9fa5a7ebd4f18202e495fb6f242890c21453d450c2620a9b2f
+    keywords:
+    - rabbitmq-broker
+    - service-broker
+    name: rabbitmq-broker
+    urls:
+    - https://aliacs-app-catalog.oss-cn-hangzhou.aliyuncs.com/charts-incubator/rabbitmq-broker-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-12-01T16:38:06.806876122+08:00"

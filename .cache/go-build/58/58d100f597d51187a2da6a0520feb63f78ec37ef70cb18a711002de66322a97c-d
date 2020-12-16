@@ -1,0 +1,3 @@
+./alerting.go
+./manager.go
+./recording.go

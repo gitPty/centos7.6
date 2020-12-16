@@ -1,0 +1,7 @@
+./ast.go
+./functions.go
+./generated_parser.y.go
+./lex.go
+./parse.go
+./printer.go
+./value.go

@@ -1,0 +1,5 @@
+./init.go
+./install.go
+./main.go
+./rewrite.go
+./update.go

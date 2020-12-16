@@ -1,0 +1,5 @@
+./interface.go
+./openmetricslex.l.go
+./openmetricsparse.go
+./promlex.l.go
+./promparse.go

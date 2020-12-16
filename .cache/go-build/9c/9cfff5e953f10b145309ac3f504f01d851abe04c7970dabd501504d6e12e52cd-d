@@ -1,0 +1,3 @@
+./manager.go
+./scrape.go
+./target.go

@@ -1,0 +1,11 @@
+./chunked.go
+./client.go
+./codec.go
+./ewma.go
+./intern.go
+./max_timestamp.go
+./metadata_watcher.go
+./queue_manager.go
+./read.go
+./storage.go
+./write.go

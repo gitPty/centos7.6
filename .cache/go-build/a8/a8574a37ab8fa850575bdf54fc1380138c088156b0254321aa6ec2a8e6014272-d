@@ -1,0 +1,5 @@
+./commentwriter.go
+./doc.go
+./generator.go
+./options.go
+./stringwriter.go

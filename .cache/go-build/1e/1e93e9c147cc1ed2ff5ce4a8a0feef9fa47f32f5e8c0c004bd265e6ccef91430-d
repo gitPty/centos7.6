@@ -1,0 +1,3 @@
+./discovery.go
+./manager.go
+./registry.go

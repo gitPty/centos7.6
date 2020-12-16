@@ -1,0 +1,22 @@
+kubeadm join 10.134.196.21:6443 --token v6xilj.ebklip5x0i9212r0 \
+    --discovery-token-ca-cert-hash sha256:b18e2a592cfab1237271b8c4321d42f61c60ddcd679384db0c936c59d260c8d5 
+
+
+############过期之后重新生成token
+#https://www.cnblogs.com/winstom/p/11684921.html
+
+
+# kubeadm token create
+424mp7.nkxx07p940mkl2nd
+# openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+d88fb55cb1bd659023b11e61052b39bbfe99842b0636574a16c76df186fd5e0d
+
+
+#Node重新加入
+kubeadm join 192.168.169.21:6443 –token 424mp7.nkxx07p940mkl2nd \
+--discovery-token-ca-cert-hash sha256:d88fb55cb1bd659023b11e61052b39bbfe99842b0636574a16c76df186fd5e0d
+
+
+##2020/11/17
+kubeadm join 10.134.196.21:6443 --token 3ybf7k.uroyuwhs5xlysol4 \
+    --discovery-token-ca-cert-hash sha256:c1e5d8f4576f127b9ced89c9c963d59dbe5870ae5497933db2ece9bed85a3e04

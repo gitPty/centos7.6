@@ -1,0 +1,3 @@
+./bstream.go
+./chunk.go
+./xor.go

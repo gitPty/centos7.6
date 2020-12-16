@@ -1,0 +1,86 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv010
+  labels: 
+    name: pv010
+spec:
+  nfs: 
+    path: /data/volumes/v10
+    server: docker02
+  accessModes: [ "ReadWriteMany","ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv011
+  labels: 
+    name: pv011
+spec:
+  nfs: 
+    path: /data/volumes/v11
+    server: docker02
+  accessModes: [ "ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv012
+  labels: 
+    name: pv012
+spec:
+  nfs: 
+    path: /data/volumes/v12
+    server: docker02
+  accessModes: [ "ReadWriteMany","ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv013
+  labels: 
+    name: pv013
+spec:
+  nfs: 
+    path: /data/volumes/v13
+    server: docker02
+  accessModes: [ "ReadWriteMany","ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv014
+  labels: 
+    name: pv014
+spec:
+  nfs: 
+    path: /data/volumes/v14
+    server: docker02
+  accessModes: [ "ReadWriteMany","ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv015
+  labels: 
+    name: pv015
+spec:
+  nfs: 
+    path: /data/volumes/v15
+    server: docker02
+  accessModes: [ "ReadWriteMany","ReadWriteOnce" ]
+  capacity:
+    storage: 8Gi
+---

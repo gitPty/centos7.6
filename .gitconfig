@@ -1,0 +1,8 @@
+[user]
+	name = gitPty
+	email = 2622114804@qq.com
+	
+
+
+[credential]
+	helper = store
