@@ -1,0 +1,6 @@
+{
+  "registry-mirrors": ["https://registry.docker-cn.com","https://hgsvtt76.mirror.aliyuncs.com"],
+   "default-ipc-mode": "shareable",
+   "exec-opts":["native.cgroupdriver=systemd"]
+}
+
