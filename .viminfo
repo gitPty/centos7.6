@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/token.csv
+~MSle0~/image
 
 # Last Substitute Search Pattern:
 ~MSle0&kubernetes-charts.storage.googleapis.com
@@ -19,9 +19,9 @@ $
 # Command Line History (newest to oldest):
 :q
 :wq
+:Q
 :q!
 :q1
-:Q
 :w
 :52
 :31
@@ -69,12 +69,12 @@ $
 :sp
 
 # Search String History (newest to oldest):
+?/image
 ?/token.csv
 ?/@type elas
 ?/elastic
 ?/30
 ?/jvm
-?/image
 ?/volume
 ?/persistence
 ?/namespace
@@ -174,18 +174,43 @@ $
 	y
 
 # File marks:
-'0  1  0  ~/manifests/scripts/linux_init.sh
-'1  12  27  ~/manifests/flannel/networkpolicy/pod-1.ym
-'2  17  0  ~/manifests/flannel/networkpolicy/my-ns-ingress1.yaml
-'3  1  0  ~/manifests/flannel/networkpolicy/my-ns-ingress2.yaml
-'4  1  0  ~/manifests/deploy-demo.yaml
-'5  1  0  ~/manifests/flannel/networkpolicy/allow-netpol.yaml
-'6  1  0  ~/manifests/flannel/networkpolicy/pod-1.yml
-'7  1  0  ~/manifests/flannel/networkpolicy/pod-1.ym
-'8  1  0  ~/manifests/flannel/networkpolicy/egress-def.yml
-'9  1  0  ~/manifests/flannel/networkpolicy/ingress-def.yml
+'0  1  0  /etc/yum.repos.d/linux-k/README.md
+'1  28  4  /etc/kubernetes/manifests/kube-controller-manager.yaml
+'2  19  61  /etc/kubernetes/manifests/kube-scheduler.yaml
+'3  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-service.yaml
+'4  241  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-rules.yaml
+'5  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-configMap.yaml
+'6  52  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-deployment.yaml
+'7  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-prometheus.yaml
+'8  1  0  ~/manifests/prometheus/kube-prometheus/manifests/alertmanager-alertmanager.yaml
+'9  58  0  /etc/ansible/hosts
 
 # Jumplist (newest first):
+-'  1  0  /etc/yum.repos.d/linux-k/README.md
+-'  28  4  /etc/kubernetes/manifests/kube-controller-manager.yaml
+-'  1  0  /etc/kubernetes/manifests/kube-controller-manager.yaml
+-'  19  61  /etc/kubernetes/manifests/kube-scheduler.yaml
+-'  1  0  /etc/kubernetes/manifests/kube-scheduler.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-service.yaml
+-'  241  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-rules.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-rules.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-configMap.yaml
+-'  52  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-deployment.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-deployment.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-prometheus.yaml
+-'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/alertmanager-alertmanager.yaml
+-'  58  0  /etc/ansible/hosts
+-'  1  0  /etc/ansible/hosts
+-'  3738  10  ~/manifests/flannel/canal.yaml
+-'  1  0  /etc/docker/daemon.json
+-'  3642  10  ~/manifests/flannel/canal.yaml
+-'  3631  10  ~/manifests/flannel/canal.yaml
+-'  3590  10  ~/manifests/flannel/canal.yaml
+-'  1  0  ~/manifests/flannel/canal.yaml
+-'  19  0  ~/.kube/config
+-'  1  0  ~/.kube/config
+-'  1  0  /run/flannel/subnet.env
+-'  1  0  /etc/kubernetes/admin.conf
 -'  1  0  ~/manifests/scripts/linux_init.sh
 -'  12  27  ~/manifests/flannel/networkpolicy/pod-1.ym
 -'  7  0  ~/manifests/flannel/networkpolicy/pod-1.ym
@@ -204,7 +229,6 @@ $
 -'  52  0  /usr/lib/systemd/system/docker.service
 -'  120  0  /etc/profile
 -'  1  0  /etc/profile
--'  1  0  /etc/docker/daemon.json
 -'  1  0  /etc/systemd/system/docker.service.d/https-proxy.conf
 -'  73  0  ~/manifests/scripts/k8s_init.sh
 -'  69  0  ~/manifests/scripts/k8s_init.sh
@@ -216,7 +240,6 @@ $
 -'  1  0  /etc/kubernetes/bootstrap-kubelet.conf
 -'  18  0  /usr/lib/systemd/system/docker.service
 -'  1  0  /usr/lib/systemd/system/docker.service
--'  1  0  /etc/ansible/hosts
 -'  1  0  ~/manifests/scripts/k8s_init.sh
 -'  1  0  /etc/hosts
 -'  47  31  ~/efk/elasticsearch-statefulset.yaml
@@ -248,7 +271,6 @@ $
 -'  22  0  ~/manifests/service-demo.yaml
 -'  23  103  ~/manifests/service-demo.yaml
 -'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/grafana-service.yaml
--'  1  0  ~/manifests/prometheus/kube-prometheus/manifests/prometheus-service.yaml
 -'  45  28  ~/efk/kibana.yaml
 -'  1  0  ~/efk/kibana.yaml
 -'  72  0  ~/manifests/volumes/pv-demo.yaml
@@ -262,30 +284,60 @@ $
 -'  1  0  ~/manifests/steteful-demo.yaml
 -'  156  0  ~/efk/elasticsearch-statefulset.yaml
 -'  16  4  ~/efk/elasticsearch.svc.yaml
--'  149  0  ~/efk/elasticsearch-statefulset.yaml
--'  82  2  ~/efk/elasticsearch-statefulset.yaml
--'  151  6  ~/efk/elasticsearch-statefulset.yaml
--'  155  10  ~/efk/elasticsearch-statefulset.yaml
--'  1  0  ~/nfs/deploy/test-claim.yaml
--'  6  53  ~/nfs/deploy/class.yaml
--'  1  0  ~/nfs/deploy/class.yaml
--'  1  0  ~/efk/elasticsearch-storageclass.yaml
--'  92  8  ~/efk/elasticsearch-statefulset.yaml
--'  1  0  ~/efk/elasticsearch.svc.yaml
--'  4  14  ~/efk/kube-logging.yaml
--'  1  0  ~/efk/kube-logging.yaml
--'  3  0  ~/efk/readme.txt
--'  1  0  ~/efk/readme.txt
--'  25  48  ~/efk/readme.txt
--'  620  2  ~/helm3/elasticsearch/values.yaml
--'  849  46  ~/helm3/elasticsearch/values.yaml
--'  838  46  ~/helm3/elasticsearch/values.yaml
--'  783  45  ~/helm3/elasticsearch/values.yaml
--'  715  46  ~/helm3/elasticsearch/values.yaml
--'  704  46  ~/helm3/elasticsearch/values.yaml
--'  664  43  ~/helm3/elasticsearch/values.yaml
 
 # History of marks within files (newest to oldest):
+
+> /etc/yum.repos.d/linux-k/README.md
+	"	1	0
+
+> /etc/kubernetes/manifests/kube-controller-manager.yaml
+	"	28	4
+	^	27	57
+	.	27	54
+	+	27	35
+	+	27	54
+
+> /etc/kubernetes/manifests/kube-scheduler.yaml
+	"	19	61
+	^	19	64
+	.	19	61
+	+	19	61
+
+> ~/manifests/prometheus/kube-prometheus/manifests/prometheus-service.yaml
+	"	1	0
+
+> ~/manifests/prometheus/kube-prometheus/manifests/prometheus-rules.yaml
+	"	241	0
+
+> ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-configMap.yaml
+	"	1	0
+
+> ~/manifests/prometheus/kube-prometheus/manifests/prometheus-adapter-deployment.yaml
+	"	52	0
+
+> ~/manifests/prometheus/kube-prometheus/manifests/prometheus-prometheus.yaml
+	"	1	0
+
+> ~/manifests/prometheus/kube-prometheus/manifests/alertmanager-alertmanager.yaml
+	"	1	0
+
+> /etc/ansible/hosts
+	"	58	0
+
+> ~/manifests/flannel/canal.yaml
+	"	3738	10
+
+> /etc/docker/daemon.json
+	"	1	0
+
+> ~/.kube/config
+	"	19	0
+
+> /run/flannel/subnet.env
+	"	1	0
+
+> /etc/kubernetes/admin.conf
+	"	1	0
 
 > ~/manifests/scripts/linux_init.sh
 	"	1	0
@@ -315,54 +367,4 @@ $
 	+	14	21
 
 > ~/manifests/deploy-demo.yaml
-	"	1	0
-
-> ~/manifests/flannel/networkpolicy/pod-1.yml
-	"	10	4
-	^	9	16
-	.	6	0
-	+	6	15
-	+	9	15
-	+	6	0
-
-> ~/manifests/flannel/networkpolicy/allow-netpol.yaml
-	"	1	0
-
-> ~/manifests/flannel/networkpolicy/egress-def.yml
-	"	1	0
-
-> ~/manifests/flannel/networkpolicy/ingress-def.yml
-	"	1	0
-
-> ~/manifests/ingress/ingress-tomcat.yaml
-	"	1	0
-
-> ~/manifests/ingress/ingress-myapp.yaml
-	"	1	0
-
-> /usr/lib/systemd/system/docker.service
-	"	50	24
-
-> /etc/profile
-	"	120	0
-
-> /etc/docker/daemon.json
-	"	1	0
-
-> /etc/systemd/system/docker.service.d/https-proxy.conf
-	"	1	0
-
-> ~/manifests/scripts/k8s_init.sh
-	"	73	0
-
-> /etc/kubernetes/manifests/kube-apiserver.yaml
-	"	45	4
-
-> /etc/kubernetes/pki/apiserver-kubelet-client.key
-	"	1	0
-
-> /var/lib/kubelet/config.yaml
-	"	1	0
-
-> /etc/kubernetes/kubelet.conf
 	"	1	0
